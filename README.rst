@@ -214,10 +214,12 @@ Or, on a Mac::
     $ /Applications/MacVim.app/Contents/MacOS/Vim --serverlist
     VIM
 
-When a VIM instance with ``clientserver`` support is running, you can find its 
+When a GVIM instance with ``clientserver`` support is running, you can find its 
 name by issuing the following command at the VIM prompt::
 
     :echo v:servername
+
+To start a non GUI VIM server instance, use the --servername argument.
 
 UDP Port - ``port``
 -------------------
